@@ -10,7 +10,7 @@ pub fn is_palindrome(x: i32) -> bool {
     } else  {
         let temp = x.to_string();
         let num = temp.len()/2;
-        let s = &temp[..num];
+        let s d  &temp[..num];
         let back = &temp[temp.len()-num..];
         let t:String = back.chars().rev().collect();
         if s == t {
